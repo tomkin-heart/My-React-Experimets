@@ -1,0 +1,30 @@
+table {
+	border-collapse: collapse;
+	font-family: monospace;
+	border: 2px green solid;
+}
+
+td {
+	border: 1px black solid;
+	padding: 8px;
+}
+
+td::selection,
+th::selection {
+	background-color: RGBA(255, 160, 122, 0.5);
+}
+
+th {
+	padding: 4px;
+	border: 1px black solid;
+}
+
+.tag {
+	display: inline-block;
+	background-color: lightsalmon;
+	padding: 2px;
+}
+
+h1 {
+	text-align: center;
+}
