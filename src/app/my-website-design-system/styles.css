@@ -74,7 +74,7 @@
 	color: var(--fg);
 }
 
-body {
+.background-middle {
 	padding: 32px;
 	font-family: Helvetica, sans-serif;
 	background-color: var(--bg-sa);
