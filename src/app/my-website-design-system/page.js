@@ -168,7 +168,7 @@ export default function () {
 										gridColumn: 'span 2',
 									}}
 								>
-									Active: hsl(291, 85%, 50%);
+									Active: hsl(285, 90%, 55%);
 								</p>
 							</div>
 						</div>
@@ -239,7 +239,7 @@ export default function () {
 										gridColumn: 'span 2',
 									}}
 								>
-									Active: hsl(300, 59%, 47%);
+									Active: hsl(285, 90%, 55%);
 								</p>
 							</div>
 						</div>
