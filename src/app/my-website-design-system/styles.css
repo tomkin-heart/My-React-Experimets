@@ -39,13 +39,14 @@
 	--ml: hsla(0, 0%, 20%, 0.4);
 	--fg: black;
 
-	--active: hsl(285, 60%, 50%);
+	--active: hsl(285, 80%, 55%);
+
 	--secondary-h: 285;
-	--secondary-s: 60%;
-	--secondary-l: 50%;
-	--primary-h: 291;
-	--primary-s: 85%;
-	--primary-l: 50%;
+	--secondary-s: 80%;
+	--secondary-l: 85%;
+	--primary-h: 285;
+	--primary-s: 90%;
+	--primary-l: 55%;
 
 	--error: hsl(0, 100%, 50%);
 
@@ -61,13 +62,13 @@
 	--ml: hsla(0, 0%, 50%, 0.6);
 	--fg: white;
 
-	--active: hsl(300, 60%, 50%);
-	--secondary-h: 300;
-	--secondary-s: 60%;
-	--secondary-l: 50%;
-	--primary-h: 291;
-	--primary-s: 85%;
-	--primary-l: 50%;
+	--active: hsl(285, 80%, 55%);
+	--secondary-h: 285;
+	--secondary-s: 30%;
+	--secondary-l: 30%;
+	--primary-h: 285;
+	--primary-s: 90%;
+	--primary-l: 60%;
 
 	--error: hsl(0, 100%, 50%);
 
@@ -164,53 +165,76 @@ table td {
 }
 
 /* BUTTON */
-.btn {
+.btn,
+.btn-test {
 	border: none;
 	font-size: var(--t00);
 	padding: 16px 32px;
 	border-radius: 32px;
-	background-color: var(--active);
-	color: white;
+	background-color: hsl(
+		var(--btn-color-h),
+		var(--btn-color-s),
+		var(--btn-color-l)
+	);
+	font-weight: bold;
 }
 
-.btn {
+.btn,
+.btn-test {
 	--btn-color-h: var(--secondary-h);
 	--btn-color-s: var(--secondary-s);
 	--btn-color-l: var(--secondary-l);
 }
 
-.btn.primary {
+.theme-light .btn,
+.theme-light .btn-test {
+	color: hsl(var(--primary-h), var(--primary-s), var(--primary-l));
+}
+
+.theme-dark .btn,
+.theme-dark .btn-test {
+	color: var(--fg);
+}
+
+.btn.primary,
+.btn-test.primary {
 	--btn-color-h: var(--primary-h);
 	--btn-color-s: var(--primary-s);
 	--btn-color-l: var(--primary-l);
-
-	background-color: hsl(
-		var(--btn-color-h),
-		var(btn-color-s),
-		var(btn-color-l)
-	);
 	color: white;
 }
 
-.btn:hover {
+.btn:hover,
+.btn-test.test-hover {
 	background-color: hsl(
 		var(--btn-color-h),
 		var(--btn-color-s),
 		calc(var(--btn-color-l) + 10%)
 	);
 }
-.btn:active {
+.btn:active,
+.btn-test.test-active {
 	background-color: hsl(
 		var(--btn-color-h),
 		var(--btn-color-s),
-		calc(var(--btn-color-l) - 20%)
+		calc(var(--btn-color-l) - 10%)
 	);
 }
-.btn.primary:disabled {
-	border: 1px solid
-		hsl(var(--btn-color-h), var(--btn-color-s), var(--btn-color-l));
+.btn:disabled,
+.btn-test.test-disabled {
+	background-color: hsl(
+		var(--secondary-h),
+		var(--secondary-s),
+		calc(var(--secondary-l) + 5%)
+	);
+	color: hsl(
+		var(--primary-h),
+		var(--primary-s),
+		calc(var(--primary-l) + 25%)
+	);
 }
-.btn:disabled {
-	background-color: var(--ma);
-	color: var(--bg);
+.btn.primary:disabled,
+.btn-test.primary.test-disabled {
+	box-shadow: 0px 0px 0px 4px
+		hsl(var(--primary-h), var(--primary-s), var(--primary-l)) inset;
 }

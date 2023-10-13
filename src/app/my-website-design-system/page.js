@@ -252,93 +252,28 @@ export default function () {
 						style={{
 							display: 'grid',
 							gap: 16,
-							gridTemplateRows: '1fr 1fr 1fr 1fr',
+							gridTemplateRows: '1fr 1fr 1fr 1fr 1fr',
 							gridAutoFlow: 'column',
 						}}
 					>
-						<button
-							className='button'
-							style={{
-								backgroundColor:
-									'hsl(var(--primary-h), var(--primary-s), var(--primary-l))',
-								color: 'white',
-							}}
-						>
-							primary
-						</button>
-						<button
-							className='button'
-							style={{
-								backgroundColor:
-									'hsl(var(--primary-h), var(--primary-s), calc(var(--primary-l) + 10%))',
-								color: 'white',
-								cursor: 'pointer',
-							}}
-						>
+						<button className='btn-test primary'>primary</button>
+						<button className='btn-test primary test-hover'>
 							hover
 						</button>
-						<button
-							className='button'
-							style={{
-								backgroundColor:
-									'hsl(var(--primary-h), var(--primary-s), calc(var(--primary-l) - 20%))',
-								color: 'white',
-								cursor: 'pointer',
-							}}
-						>
+						<button className='btn-test primary test-active'>
 							active
 						</button>
-						<button
-							className='button'
-							style={{
-								backgroundColor: 'var(--ma)',
-								color: 'var(--fg)',
-								border: '1px solid var(--active)',
-							}}
-						>
+						<button className='btn-test primary test-disabled'>
 							disabled
 						</button>
-						<button
-							className='button'
-							style={{
-								backgroundColor:
-									'hsl(var(--secondary-h), var(--secondary-s), var(--secondary-l))',
-								color: 'white',
-							}}
-						>
-							secondary
-						</button>
-						<button
-							className='button'
-							style={{
-								backgroundColor:
-									'hsl(var(--secondary-h), var(--secondary-s), calc(var(--secondary-l) + 10%))',
-								color: 'white',
-								cursor: 'pointer',
-							}}
-						>
-							hover
-						</button>
-						<button
-							className='button'
-							style={{
-								backgroundColor:
-									'hsl(var(--secondary-h),	var(--secondary-s),	calc(var(--secondary-l) - 20%))',
-								color: 'white',
-								cursor: 'pointer',
-							}}
-						>
-							active
-						</button>
-						<button
-							className='button'
-							style={{
-								backgroundColor: 'var(--ma)',
-								color: 'var(--fg)',
-							}}
-						>
+						<button className='btn primary'>Test</button>
+						<button className='btn-test'>secondary</button>
+						<button className='btn-test test-hover'>hover</button>
+						<button className='btn-test test-active'>active</button>
+						<button className='btn-test test-disabled'>
 							disabled
 						</button>
+						<button className='btn'>Test</button>
 					</div>
 				</div>
 			</div>
