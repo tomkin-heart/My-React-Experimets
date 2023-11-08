@@ -28,23 +28,23 @@ export default function () {
 				<h4>What's steeping at the Tea Cozy?</h4>
 				<div className='teaSorts'>
 					<div>
-						<img src='/photos/img-berryblitz.jpg' />
+						<img src='./photos/img-berryblitz.jpg' />
 						<h4>Fall Berry Blitz Tea</h4>
 					</div>
 					<div>
-						<img src='/photos/img-spiced-rum.jpg' />
+						<img src='./photos/img-spiced-rum.jpg' />
 						<h4>Spiced Room Tea</h4>
 					</div>
 					<div>
-						<img src='/photos/img-donut.jpg' />
+						<img src='./photos/img-donut.jpg' />
 						<h4>Seasonal Donuts</h4>
 					</div>
 					<div>
-						<img src='/photos/img-donut.jpg' />
+						<img src='./photos/img-donut.jpg' />
 						<h4>Myrtle Ave Tea</h4>
 					</div>
 					<div>
-						<img src='/photos/img-bedford-bizarre.jpg' />
+						<img src='./photos/img-bedford-bizarre.jpg' />
 						<h4>Bedford Bizzare Tea</h4>
 					</div>
 				</div>
