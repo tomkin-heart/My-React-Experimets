@@ -4,7 +4,7 @@ export default function () {
 	return (
 		<div className='bigContainer'>
 			<header>
-				<img src='/photos/img-tea-cozy-logo.png' className='label' />
+				<img src='./photos/img-tea-cozy-logo.png' className='label' />
 				<nav>
 					<a>Mission</a>
 					<a>Featured Tea</a>
@@ -13,7 +13,7 @@ export default function () {
 			</header>
 
 			<div className='landing'>
-				<img src='/photos/img-mission-background.jpg' />
+				<img src='./photos/img-mission-background.jpg' />
 				<div>
 					<h2>Our Mission</h2>
 					<h4>
