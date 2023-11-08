@@ -39,20 +39,22 @@ export default function () {
 			<h1>HTML Table Tags</h1>
 			<br />
 			<table>
-				<tr>
-					<th>tag</th>
-					<th>name</th>
-					<th>description</th>
-				</tr>
-				{data.map(row => (
+				<tbody>
 					<tr>
-						<td>
-							<span className='tag'>{row.tag}</span>
-						</td>
-						<td>{row.name}</td>
-						<td>{row.description}</td>
+						<th>tag</th>
+						<th>name</th>
+						<th>description</th>
 					</tr>
-				))}
+					{data.map(row => (
+						<tr>
+							<td>
+								<span className='tag'>{row.tag}</span>
+							</td>
+							<td>{row.name}</td>
+							<td>{row.description}</td>
+						</tr>
+					))}
+				</tbody>
 			</table>
 		</div>
 	)

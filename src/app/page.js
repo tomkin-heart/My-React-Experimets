@@ -14,6 +14,9 @@ export default function () {
 						My-website-design-system
 					</Link>
 				</li>
+				<li>
+					<Link href='/tee_cozy'>Design-Project_Tee-Cozy</Link>
+				</li>
 			</ul>
 		</div>
 	)

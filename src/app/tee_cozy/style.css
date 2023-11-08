@@ -1,0 +1,155 @@
+* {
+	font-family: Helvetica;
+	font-size: 22px;
+	letter-spacing: 0.02em;
+	color: seashell;
+}
+
+.bigContainer {
+	background-color: black;
+	opacity: 0.9;
+	padding-top: 69px;
+}
+
+h5 {
+	font-weight: bold;
+}
+
+h4 {
+	font-size: 25px;
+	font-weight: bold;
+}
+
+h3 {
+	font-size: 30px;
+	font-weight: bold;
+}
+
+h2 {
+	font-size: 34px;
+	font-weight: bold;
+}
+
+header {
+	height: 69px;
+	width: 100%;
+	display: inline-flex;
+	justify-content: space-between;
+	align-items: center;
+	position: fixed;
+	top: 0;
+	z-index: 10;
+	padding: 0px 10px;
+	border-bottom: 1px solid seashell;
+}
+
+.label {
+	height: 50px;
+}
+
+nav {
+	text-decoration: underline;
+	display: inline-flex;
+	gap: 30px;
+}
+
+.landing {
+	margin: 0 auto;
+	position: relative;
+	max-width: 1200px;
+}
+
+.landing img {
+	max-height: 700px;
+	width: 100%;
+}
+
+.landing div {
+	background-color: black;
+	position: absolute;
+	top: 50%;
+	transform: translateY(-50%);
+	text-align: center;
+	width: 100%;
+	padding: 20px 0px;
+}
+
+.landing h2 {
+	line-height: 200%;
+}
+
+.products {
+	max-width: 1000px;
+	display: flex;
+	flex-direction: column;
+	align-items: center;
+	margin: 0 auto;
+	gap: 20px;
+	padding: 70px 0px;
+}
+
+.teaSorts {
+	display: flex;
+	flex-wrap: wrap;
+	justify-content: center;
+	gap: 20px;
+}
+
+.teaSorts div {
+	max-width: 300px;
+	display: flex;
+	flex-direction: column;
+	align-items: center;
+	gap: 10px;
+}
+
+.teaSorts img {
+	height: 200px;
+}
+
+.locations {
+	background-image: url('/photos/img-locations-background.jpg');
+	margin: 0 auto;
+	max-width: 1200px;
+	min-height: 500px;
+	display: flex;
+	flex-direction: column;
+	justify-content: center;
+	align-items: center;
+	gap: 15px;
+	padding-bottom: 70px;
+	padding-top: 20px;
+}
+
+.adresses {
+	display: flex;
+	justify-content: center;
+	align-items: center;
+	flex-wrap: wrap;
+	gap: 40px;
+}
+
+.adresses div {
+	background-color: black;
+	opacity: 1;
+	height: 200px;
+	width: 300px;
+	display: flex;
+	flex-direction: column;
+	align-items: center;
+	padding: 5px;
+	gap: 15px;
+}
+
+.contact {
+	display: flex;
+	flex-direction: column;
+	justify-content: center;
+	align-items: center;
+	gap: 20px;
+	padding: 70px 0px;
+}
+
+footer {
+	padding: 20px;
+}
