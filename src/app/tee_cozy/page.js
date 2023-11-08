@@ -4,7 +4,12 @@ export default function () {
 	return (
 		<div className='bigContainer'>
 			<header>
-				<img src='/photos/img-tea-cozy-logo.png' className='label' />
+				<img
+					src={
+						process.env.PUBLIC_URL + '/photos/img-tea-cozy-logo.png'
+					}
+					className='label'
+				/>
 				<nav>
 					<a>Mission</a>
 					<a>Featured Tea</a>
