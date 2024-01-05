@@ -17,7 +17,7 @@ export default function () {
 					</li>
 				</ul>
 			</nav>
-			<div className='w-full bg-[url("./flexbox_business/bg.jpg")] bg-cover bg-center rounded flex justify-center items-center'>
+			<div className='w-full bg-[url("../flexbox_business/bg.jpg")] bg-cover bg-center rounded flex justify-center items-center'>
 				<h1 className='text-center py-40 px-10 max-w-[700px]'>
 					Creative Place Cologne
 				</h1>
@@ -33,7 +33,7 @@ export default function () {
 				<div className='events flex gap-1 justify-center pb-14'>
 					<div className='text-center'>
 						<img
-							src='./flexbox_business/Moya.jpg'
+							src='/flexbox_business/Moya.jpg'
 							className='flex-1 max-w-full h-48 object-cover rounded'
 						/>
 						<h3 className='p-3'>
@@ -48,7 +48,7 @@ export default function () {
 					</div>
 					<div className='text-center'>
 						<img
-							src='./flexbox_business/Ritu.jpg'
+							src='/flexbox_business/Ritu.jpg'
 							className=' flex-1 h-48 max-w-full object-cover rounded'
 						/>
 						<h3 className='p-3'>
@@ -63,7 +63,7 @@ export default function () {
 					</div>
 					<div className='text-center'>
 						<img
-							src='./flexbox_business/Musiktherapie.png'
+							src='/flexbox_business/Musiktherapie.png'
 							className='flex-1 max-w-full h-48 object-cover rounded'
 						/>
 						<h3 className='p-3'>
@@ -117,7 +117,7 @@ export default function () {
 								50667 Köln
 							</p>
 							<img
-								src='./flexbox_business/location.png'
+								src='/flexbox_business/location.png'
 								className='h-48 mt-4'
 							/>
 						</div>
