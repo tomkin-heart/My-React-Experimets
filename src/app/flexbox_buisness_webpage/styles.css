@@ -116,7 +116,7 @@ a:active {
 	flex-direction: column;
 	align-items: start;
 	width: 100%;
-	font-size: 1.4rem;
+	font-size: 1.2rem;
 	gap: 4px;
 }
 
@@ -124,7 +124,7 @@ a:active {
 	padding-top: 32px;
 	display: flex;
 	flex-wrap: wrap;
-	font-size: 1.4rem;
+	font-size: 1.2rem;
 	justify-content: center;
 }
 
