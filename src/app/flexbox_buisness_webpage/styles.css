@@ -1,0 +1,138 @@
+h1 {
+	font-family: Verdana, Geneva, Tahoma, sans-serif;
+	font-size: 5rem;
+	letter-spacing: -4.5px;
+	line-height: 1.6;
+	color: rgb(208, 220, 60);
+	text-shadow: 4px 4px 4px black;
+}
+
+@font-face {
+	font-family: 'GreatVibes';
+	src: url('/flexbox_business/GreatVibes-Regular.ttf') format('truetype');
+	font-weight: normal;
+	font-style: normal;
+}
+
+.nav a {
+	color: black;
+	text-decoration: none;
+	font-size: 1.3rem;
+	font-weight: 400;
+}
+
+.nav a:hover {
+	color: rgb(208, 220, 60);
+	cursor: pointer;
+}
+
+.nav a:active {
+	color: RGB(10, 90, 32);
+}
+
+.quote {
+	font-family: 'GreatVibes';
+	font-size: 5rem;
+	color: rgb(64, 66, 66);
+	max-width: 800px;
+}
+
+@media only screen and (max-width: 760px) {
+	.quoteDiv {
+		height: 50vh;
+	}
+
+	.quote {
+		font-size: 3rem;
+		max-width: 500px;
+	}
+	h1 {
+		font-size: 4rem;
+	}
+}
+
+h2 {
+	font-family: Verdana, Geneva, Tahoma, sans-serif;
+	font-weight: 300;
+	font-size: 2rem;
+}
+
+h3 {
+	font-family: Verdana, Geneva, Tahoma, sans-serif;
+	font-size: 1rem;
+}
+
+a {
+	color: RGB(1, 50, 32);
+	font-weight: bold;
+}
+
+a:hover {
+	color: rgb(208, 220, 60);
+	cursor: pointer;
+}
+
+a:active {
+	color: RGB(10, 90, 32);
+}
+
+@media only screen and (max-width: 760px) {
+	.events {
+		flex-wrap: wrap;
+		gap: 32px;
+	}
+
+	.events img {
+		height: 24rem;
+	}
+
+	.events h3 {
+		font-size: 1.4rem;
+	}
+}
+
+@media only screen and (max-width: 1024px) {
+	.events {
+		flex-wrap: wrap;
+		gap: 32px;
+	}
+
+	.events img {
+		height: 16rem;
+	}
+
+	.events h3 {
+		font-size: 1.4rem;
+	}
+}
+
+.adress {
+	color: RGB(10, 90, 32);
+	text-align: left;
+}
+
+.form {
+	display: flex;
+	flex-direction: column;
+	align-items: start;
+	width: 100%;
+	font-size: 1.4rem;
+	gap: 4px;
+}
+
+.location {
+	padding-top: 32px;
+	display: flex;
+	flex-wrap: wrap;
+	font-size: 1.4rem;
+	justify-content: center;
+}
+
+@media only screen and (min-width: 1024px) {
+	.location {
+		flex-direction: row;
+		align-items: center;
+		justify-content: space-around;
+		gap: 16px;
+	}
+}
