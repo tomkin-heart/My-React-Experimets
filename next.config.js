@@ -3,4 +3,7 @@ module.exports = {
 	// assetPrefix: `/public`,
 	// basePath: '',
 	// distDir: 'out',
+	 images: {
+    domains: [],
+  },
 }
