@@ -106,33 +106,33 @@ a:active {
 	}
 }
 
-.adress {
-	color: RGB(10, 90, 32);
-	text-align: left;
-}
-
 .form {
 	display: flex;
 	flex-direction: column;
 	align-items: start;
 	width: 100%;
 	font-size: 1.2rem;
-	gap: 4px;
+	gap: 8px;
+	padding: 8px 0;
+}
+
+.adress {
+	color: rgb(150, 170, 10);
+	text-align: left;
+	font-weight: 800;
+}
+
+h4 {
 }
 
 .location {
-	padding-top: 32px;
+	padding-top: 8px;
 	display: flex;
 	flex-wrap: wrap;
 	font-size: 1.2rem;
 	justify-content: center;
 }
 
-@media only screen and (min-width: 1024px) {
-	.location {
-		flex-direction: row;
-		align-items: center;
-		justify-content: space-around;
-		gap: 16px;
-	}
+.location h3 {
+	font-size: 0.6rem;
 }

@@ -2,17 +2,17 @@ const events = [
 	{
 		from: 'Mon, 11 Dec 2023 16:30:00 GMT',
 		till: 'Mon, 11 Dec 2023 18:00:00 GMT',
-		description: 'Hatha Yoga with Ritu',
+		description: '16:30-18:00 Hatha Yoga',
 	},
 	{
 		from: 'Wed, 13 Dec 2023 17:30:00 GMT',
 		till: 'Wed, 13 Dec 2023 19:00:00 GMT',
-		description: 'Music Therapie Group with Toma',
+		description: '17:30-19:00 Group Music Therapy',
 	},
 	{
 		from: 'Sun, 17 Dec 2023 10:00:00 GMT',
 		till: 'Sun, 17 Dec 2023 12:00:00 GMT',
-		description: 'Soul Motion Dance with Moya',
+		description: '10:00-12:00 Soul Motion Dance',
 	},
 ]
 
@@ -45,20 +45,20 @@ export default function () {
 				)
 
 				return (
-					<div className='flex-1 border'>
+					<div className='flex-1 border rounded'>
 						<div className='text-center p-2 text-[10px]'>
 							{day} {day_beg.getDate()}
 						</div>
-						<div className='h-[360px] relative'>
+						<div className='h-[370px] relative'>
 							{filteredEvents.map(event => {
 								const d_from = new Date(event.from)
 								const d_till = new Date(event.till)
-								const top = (d_from.getHours() - 8) * 30
-								const bottom = (d_till.getHours() - 8) * 30
+								const top = (d_from.getHours() - 10) * 30
+								const bottom = (d_till.getHours() - 10) * 30
 								return (
 									<div
 										style={{top: top, height: bottom - top}}
-										className='absolute bg-[#d0dc3c] rounded-[8px] border-[1px] border-lime-200 text-xs pt-2'
+										className='absolute bg-[#d0dc3c] rounded-[8px] border-[1px] border-lime-200 text-xs pt-2 pl-1'
 									>
 										{event.description}
 									</div>
