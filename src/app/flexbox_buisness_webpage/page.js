@@ -39,7 +39,7 @@ export default function () {
 				<div className='events flex gap-1 justify-center aligne-center pb-14 px-8'>
 					<div className='text-center'>
 						<img
-							src='/flexbox_business/Moya.jpg'
+							src='public/flexbox_business/Moya.jpg'
 							className='flex-1 h-[300px] w-[400px] object-cover rounded'
 						/>
 						<h3 className='p-3'>
