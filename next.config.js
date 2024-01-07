@@ -1,9 +1,18 @@
-module.exports = {
+ @type {import('next').NextConfig}
+
+const nextConfig = {
 	output: 'export',
 	// assetPrefix: `/public`,
 	// basePath: '',
 	// distDir: 'out',
-	 images: {
-    domains: [],
-  },
 }
+ 
+module.exports = nextConfig
+
+// module.exports = {
+// 	output: 'export',
+// 	// assetPrefix: `/public`,
+// 	// basePath: '',
+// 	// distDir: 'out',
+
+// }
