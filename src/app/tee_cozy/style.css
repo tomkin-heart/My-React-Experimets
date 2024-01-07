@@ -108,7 +108,7 @@ nav {
 }
 
 .locations {
-	background-image: url('./photos/img-locations-background.jpg');
+	background-image: url('photos/img-locations-background.jpg');
 	margin: 0 auto;
 	max-width: 1200px;
 	min-height: 500px;
