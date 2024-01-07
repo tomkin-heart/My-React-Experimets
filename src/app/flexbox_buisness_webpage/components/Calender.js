@@ -53,8 +53,8 @@ export default function () {
 							{filteredEvents.map(event => {
 								const d_from = new Date(event.from)
 								const d_till = new Date(event.till)
-								const top = (d_from.getHours() - 10) * 30
-								const bottom = (d_till.getHours() - 10) * 30
+								const top = (d_from.getHours() - 9) * 30
+								const bottom = (d_till.getHours() - 9) * 30
 								return (
 									<div
 										style={{top: top, height: bottom - top}}
