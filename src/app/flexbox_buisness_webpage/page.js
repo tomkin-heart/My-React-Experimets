@@ -21,7 +21,7 @@ export default function () {
 				</ul>
 			</nav>
 			<div
-				className='w-full bg-[url("./flexbox_business/bg.jpg")] bg-cover bg-center rounded flex justify-center items-center'
+				className='w-full bg-[url("/flexbox_business/bg.jpg")] bg-cover bg-center rounded flex justify-center items-center'
 				id='home'
 			>
 				<h1 className='text-center py-40 px-10 max-w-[700px]'>
