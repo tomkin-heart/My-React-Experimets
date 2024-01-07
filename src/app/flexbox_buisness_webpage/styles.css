@@ -9,7 +9,7 @@ h1 {
 
 @font-face {
 	font-family: 'GreatVibes';
-	src: url('/flexbox_business/GreatVibes-Regular.ttf') format('truetype');
+	src: url('./flexbox_business/GreatVibes-Regular.ttf') format('truetype');
 	font-weight: normal;
 	font-style: normal;
 }
