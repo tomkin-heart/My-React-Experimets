@@ -21,7 +21,7 @@ export default function () {
 				</ul>
 			</nav>
 			<div
-				className='w-full bg-[url("/flexbox_business/bg.jpg")] bg-cover bg-center rounded flex justify-center items-center'
+				className='w-full bg-[url("./flexbox_business/bg.jpg")] bg-cover bg-center rounded flex justify-center items-center'
 				id='home'
 			>
 				<h1 className='text-center py-40 px-10 max-w-[700px]'>
@@ -54,7 +54,7 @@ export default function () {
 					</div>
 					<div className='text-center'>
 						<img
-							src='/flexbox_business/Ritu.jpg'
+							src='./flexbox_business/Ritu.jpg'
 							className=' flex-1 h-[300px] w-[400px] object-cover rounded'
 						/>
 						<h3 className='p-3'>
@@ -69,7 +69,7 @@ export default function () {
 					</div>
 					<div className='text-center'>
 						<img
-							src='/flexbox_business/Musiktherapie.png'
+							src='./flexbox_business/Musiktherapie.png'
 							className='flex-1 h-[300px] w-[400px] object-cover rounded'
 						/>
 						<h3 className='p-3'>
@@ -119,7 +119,7 @@ export default function () {
 								50667 Köln
 							</p>
 							<img
-								src='/flexbox_business/location_gradient.png'
+								src='./flexbox_business/location_gradient.png'
 								className='h-[315px] w-[550px] object-cover '
 							/>
 						</div>
