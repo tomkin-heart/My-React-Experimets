@@ -1,6 +1,5 @@
 const nextConfig = {
 	output: 'export',
-	basePath: '/My-React-Experiments',
 	assetPrefix: '/My-React-Experiments/',
 	// distDir: 'out',
 }
