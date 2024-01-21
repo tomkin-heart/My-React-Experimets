@@ -39,7 +39,7 @@ export default function () {
 				<div className='events flex gap-1 justify-center aligne-center pb-14 px-8'>
 					<div className='text-center'>
 						<img
-							src='/flexbox_business/Moya.jpg'
+							src='./flexbox_business/Moya.jpg'
 							className='flex-1 h-[300px] w-[400px] object-cover rounded'
 						/>
 						<h3 className='p-3'>
@@ -54,7 +54,7 @@ export default function () {
 					</div>
 					<div className='text-center'>
 						<img
-							src='/flexbox_business/Ritu.jpg'
+							src='./flexbox_business/Ritu.jpg'
 							className=' flex-1 h-[300px] w-[400px] object-cover rounded'
 						/>
 						<h3 className='p-3'>
@@ -69,7 +69,7 @@ export default function () {
 					</div>
 					<div className='text-center'>
 						<img
-							src='/flexbox_business/Musiktherapie.png'
+							src='./flexbox_business/Musiktherapie.png'
 							className='flex-1 h-[300px] w-[400px] object-cover rounded'
 						/>
 						<h3 className='p-3'>
@@ -119,7 +119,7 @@ export default function () {
 								50667 Köln
 							</p>
 							<img
-								src='/flexbox_business/location_gradient.png'
+								src='./flexbox_business/location_gradient.png'
 								className='h-[315px] w-[550px] object-cover '
 							/>
 						</div>
