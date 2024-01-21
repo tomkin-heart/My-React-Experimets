@@ -1,12 +1,10 @@
 const nextConfig = {
 	output: 'export',
-	basePath:
-		process.env.NODE_ENV === 'production' ? '/My-React-Experiments' : '',
-	// assetPrefix: `/public`,
-	// basePath: '',
+	basePath: '/My-React-Experiments',
+	assetPrefix: '/My-React-Experiments/',
 	// distDir: 'out',
 }
- 
+
 module.exports = nextConfig
 
 // module.exports = {
