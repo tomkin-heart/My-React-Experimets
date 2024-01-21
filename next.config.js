@@ -1,5 +1,6 @@
 module.exports = {
 	output: 'export',
+	basePath: '/My-React-Experimets',
 	// assetPrefix: '/My-React-Experiments/',
 	// distDir: 'out',
 }
