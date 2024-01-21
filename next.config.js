@@ -1,10 +1,8 @@
-const nextConfig = {
+module.exports = {
 	output: 'export',
-	assetPrefix: '/My-React-Experiments/',
+	// assetPrefix: '/My-React-Experiments/',
 	// distDir: 'out',
 }
-
-module.exports = nextConfig
 
 // module.exports = {
 // 	output: 'export',
